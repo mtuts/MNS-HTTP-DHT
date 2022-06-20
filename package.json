@@ -1,16 +1,16 @@
 {
-  "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "private": false,
+  "displayName": "MNS HTTP DHT",
+  "name": "homebridge-mns-http-dht",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Simple http request DHT sensor reader.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git://github.com/mtuts/mns-http-dht.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/mtuts/mns-http-dht/issues"
   },
   "engines": {
     "node": ">=14.18.1",
@@ -24,7 +24,9 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "mns", "marwan", "alsahafi", "dht", "tempreture", "humidity",
+    "dht11", "dht22", "arduino", "esp8266"
   ],
   "dependencies": {},
   "devDependencies": {

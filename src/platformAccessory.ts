@@ -1,13 +1,13 @@
 import { Service, PlatformAccessory, CharacteristicValue } from 'homebridge';
 
-import { ExampleHomebridgePlatform } from './platform';
+import { MNS_HTML_DHT_Platform } from './platform';
 
 /**
  * Platform Accessory
  * An instance of this class is created for each accessory your platform registers
  * Each accessory may expose multiple services of different service types.
  */
-export class ExamplePlatformAccessory {
+export class MNS_HTML_DHT {
   private service: Service;
 
   /**
@@ -20,7 +20,7 @@ export class ExamplePlatformAccessory {
   };
 
   constructor(
-    private readonly platform: ExampleHomebridgePlatform,
+    private readonly platform: MNS_HTML_DHT_Platform,
     private readonly accessory: PlatformAccessory,
   ) {
 
