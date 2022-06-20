@@ -2,7 +2,7 @@
   "private": false,
   "displayName": "MNS HTTP DHT",
   "name": "homebridge-mns-http-dht",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple http request DHT sensor reader.",
   "license": "Apache-2.0",
   "repository": {
@@ -25,8 +25,16 @@
   },
   "keywords": [
     "homebridge-plugin",
-    "mns", "marwan", "alsahafi", "dht", "tempreture", "humidity",
-    "dht11", "dht22", "arduino", "esp8266"
+    "mns",
+    "marwan",
+    "alsahafi",
+    "dht",
+    "tempreture",
+    "humidity",
+    "dht11",
+    "dht22",
+    "arduino",
+    "esp8266"
   ],
   "dependencies": {},
   "devDependencies": {
